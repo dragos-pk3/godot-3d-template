@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://t1bg0q6wmi44"]
+
+[node name="Base Scene" type="Node3D"]
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="Platform" type="CSGBox3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.60199, -0.0499141, -0.995728)
+size = Vector3(50, 0.3, 50)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.51686, 0.958412, -0.449152)
+size = Vector3(4.41455, 1.7417, 0.0629883)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.45719, 0.953622, 4.07991)
+size = Vector3(4.41455, 1.7417, 0.0629883)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Environment"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.70607, 0.965883, 1.84315)
+size = Vector3(4.55103, 1.7417, 0.0629883)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Environment"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.710256, 0.965883, 1.84315)
+size = Vector3(4.55103, 1.7417, 0.0629883)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.591481, 0.839908, 1.83618)
+operation = 2
+radius = 0.51034
